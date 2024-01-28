@@ -20,7 +20,10 @@ class Main extends StatelessWidget {
             ),)),
             Center(child: Text("Hicham imlal Testing",style: TextStyle(
               fontSize: 20,
-            ),))
+            ),)),
+            Center(child: Text("Hicham imlal Testing",style: TextStyle(
+              fontSize: 20,
+            ),)),
           ],
         ),
       ),
