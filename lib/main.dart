@@ -16,14 +16,11 @@ class Main extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Center(child: Text("Hicham imlal Testing",style: TextStyle(
-              fontSize: 40,
-            ),),
-            ),
-            Center(
-              child: Text("Hicham imlal Testing",style: TextStyle(
-                fontSize: 20,
-              ),),
-            )
+              fontSize: 30,
+            ),)),
+            Center(child: Text("Hicham imlal Testing",style: TextStyle(
+              fontSize: 20,
+            ),))
           ],
         ),
       ),
