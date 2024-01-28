@@ -12,6 +12,14 @@ class Main extends StatelessWidget {
     return const MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.blue,
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Center(child: Text("Hicham imlal Testing",style: TextStyle(
+              fontSize: 30,
+            ),))
+          ],
+        ),
       ),
     );
   }
