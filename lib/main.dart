@@ -1,32 +1,18 @@
-import "package:flutter/material.dart";
+import 'package:flutter/material.dart';
 
-void main(){
-  runApp(const Main());
-}
+import 'Screens/Custom.dart';
 
-class Main extends StatelessWidget {
-  const Main({super.key});
+void main()=>runApp(const Notes());
+
+class Notes extends StatelessWidget {
+  const Notes({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        backgroundColor: Colors.blue,
-        body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Center(child: Text("Hicham imlal Testing",style: TextStyle(
-              fontSize: 30,
-            ),)),
-            Center(child: Text("Hicham imlal",style: TextStyle(
-              fontSize: 20,
-            ),)),
-            Center(child: Text("Hicham imlal Testing",style: TextStyle(
-              fontSize: 20,
-            ),)),
-          ],
-        ),
-      ),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(brightness: Brightness.dark,fontFamily: 'Poppins'),
+      home: const Custom(),
     );
   }
 }
